@@ -1,6 +1,6 @@
 import qrcode
 
-website_link = ""
+website_link = "https://github.com/Mustafa786-Python/Beginner-Projects.git"
 
 # making qr_code
 qr = qrcode.QRCode(box_size=5, border=3)
@@ -10,4 +10,4 @@ qr.make()
 
 # making image
 img = qr.make_image(fill_color="blue", back_color="white")
-img.save('qrcode1.png')  # type: ignore
+img.save('mygithub.png')  # type: ignore
