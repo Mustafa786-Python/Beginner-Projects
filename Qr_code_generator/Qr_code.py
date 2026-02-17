@@ -9,5 +9,5 @@ qr.add_data(website_link)
 qr.make()
 
 # making image
-img = qr.make_image(fill_color="blue", back_color="white")
+img = qr.make_image(fill_color="#F0EDCC", back_color="#02343F")
 img.save('mygithub.png')  # type: ignore
